@@ -1,7 +1,7 @@
 import "./App.css";
-import Posts from "./components/Posts";
+import {Posts} from "./components/Posts";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Posts />
